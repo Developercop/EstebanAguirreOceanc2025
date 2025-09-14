@@ -1,0 +1,9 @@
+# EstebanAguirreOceanc2025
+1) Paso: Se creo el repositorio en GitHub. Posteriormente, se inicio con el Comando Init. Asi mismo, se clono el repositorio con el comando Clone.
+2) Paso: Se clono el repositorio en un carpeta en mi escritorio denominado EstebanAguirreOceanc2025. Se hizo con la ayuda de Git, NO desde el powershell.
+3) Paso: Posteriormente me suscribi al sitio oficial de la NASA y se descargaron los datos desde la URL adjunta en el documento. Se descargaron y se almacenaron los datos en un archivo .JSON, con la ayuda del editor de texto VS code. La API KEY de la NASA obtenida fue r0j3DguOmnuax1tCb7wa3Sxb8XW4E3XCXBB0yR4m
+4) Paso: Se descargo Ollama como modelo economico para que funcione a nivel local y se integra por supuesto en el codigo fuente.
+5) Paso: Ahora el codigo fuente esta hecho en VS code y esta hecho de la siguiente manera: en la parte inicial del HTML se encuentra las tres principales y unicas librerias; la primera importa la libreria de Google Studio IA. La segunda importa archivos .Json. La tercera importa las peiciones requests que seran utilizadas  mas adelante.
+6) Paso: Mas abajo se puede encontrar una variable donde se anexa la API que me arrojo Google Studio IA y su respectiva declaracion y conexion. Mas abajo se puede encontrar un bloque de excepcion (try, except) con el proposito de que el archivo .JSON, cuya finalidad es subir la base de datos almacenada localmente "bd_local" con sus correspondientes mensajes de exito y/o error
+7) Paso: Mas abajo, se encuentra como tal el modelo de Gemini, a traves de dos funciones, un condicional, un ciclo y dos excepciones que se pueden visualizar en el codigo fuente.
+8) Paso: Se pueden observar la perfecta ejecucion de mi codigo en la Terminal. La unica cotacion que se debe tener en cuenta segun Google Studio IA, el modelo posiblemente no estaria disponible en mi area o region.
